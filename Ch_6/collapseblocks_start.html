@@ -15,6 +15,27 @@
         </header>
 
         <div class="content" data-role="content">
+            <p>Collapsible block:</p>
+            <div data-role="collapsible">
+                <h1>I'm a collapsible block</h1>
+                <p>I'm the content in the collapsible block.</p>
+            </div>
+
+            <p>Defaults to open:</p>
+            <div data-role="collapsible" data-collapsed="false">
+                <h1>I'm a collapsible block</h1>
+                <p>I'm the content in the collapsible block.</p>
+            </div>
+
+            <p>Nested Collapsible blocks:</p>
+            <div data-role="collapsible">
+                <h1>I'm a collapsible block</h1>
+                <p>I'm the content in the collapsible block.</p>
+                <div data-role="collapsible">
+                    <h1>I'm a nested collapsible block</h1>
+                    <p>I'm the content in the nested collapsible block.</p>
+                </div>
+            </div>
         </div>
     </section>
 </body>

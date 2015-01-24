@@ -14,6 +14,39 @@
         <h1>Custom Select Menu</h1>
         </header>
         <div data-role="content">
+        <form method="get" action="">
+            <fieldset data-role="fieldcontain">
+    		    <label for="select1">Custom Select Menu:</label>
+			    <select name="select1" id="select1" data-native-menu="false">
+                    <option>Choose One:</option>
+                    <optgroup label="First Group">
+                    <option value="value1">Value 1</option>
+                    <option value="value2" disabled="disabled">Value 2</option>
+                    <option value="value3">Value 3</option>
+                    <option value="value4">Value 4</option>
+                    </optgroup>
+                    <optgroup label="Second Group">
+                    <option value="value5">Value 5</option>
+                    <option value="value6">Value 6</option>
+                    <option value="value7">Value 7</option>
+                    <option value="value8">Value 8</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+
+            <fieldset data-role="fieldcontain">
+    		    <label for="select1">Multiple Enabled:</label>
+ 			    <select name="select1" id="select2" multiple="multiple" data-native-menu="false">
+                    <option>Select Options:</option>
+                    <option value="value1">Value 1</option>
+                    <option value="value2">Value 2</option>
+                    <option value="value3">Value 3</option>
+                    <option value="value4">Value 4</option>
+                    <option value="value5">Value 5</option>
+                    <option value="value6">Value 6</option>
+                </select>
+           </fieldset>
+        </form>
         </div>
     </section>
 </body>
