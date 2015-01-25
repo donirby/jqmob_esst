@@ -406,7 +406,7 @@ function baseTagTest() {
 		href = base.attr( "href" );
 	}
 
-	link = $( "<a href='testurl' />" ).prependTo( fakeBody );
+	link = $( "<a href='../../jquery.mobile-1.0rc2/testurl' />" ).prependTo( fakeBody );
 	rebase = link[ 0 ].href;
 	base[ 0 ].href = href || location.pathname;
 
