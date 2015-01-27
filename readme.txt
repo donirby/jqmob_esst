@@ -1,7 +1,9 @@
 2015/01/24
 jQuery Mobile Essential Training 2011 with Joe Marini
+http://www.lynda.com/sdk/jQuery-Mobile-tutorials/jQuery-Mobile-Essential-Training/167067-2.html
+http://jquery.com/ jQuery Website
 http://jquerymobile.com/ jQuery Mobile Website
-http://jquery.com/ jQuery Base Website
+http://jqueryui.com/ jQuery UI Website
 
 
 2015/01/24
